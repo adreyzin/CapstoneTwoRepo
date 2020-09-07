@@ -1,0 +1,7 @@
+,model,features,dropped isna columns,std_test,std_train,RMSE_test,RMSE_train,training_score,test_score
+0,LinearRegression,"['Week', 'Year', 'Fall', 'Winter', 'Spring', 'Summer']",True,26.95752101173027,22.609005475457778,27.02235606225712,22.607984914124952,1.0,1.0
+1,LinearRegression,"['Week', 'Year', 'Fall', 'Winter', 'Spring', 'Summer', 'Influenza_Pneumonia']",True,7.563781690093803,7.423144704885143,7.572705104267073,7.422809627145336,1.0,1.0
+2,LinearRegression,"['Week', 'Year', 'Fall', 'Winter', 'Spring', 'Summer', 'Influenza_Pneumonia', 'Respiratory']",True,7.320982540882033,7.335158923602916,7.324360765583916,7.334827817505615,1.0,1.0
+3,RandomForestClassifier,"['Week', 'Year', 'Fall', 'Winter', 'Spring', 'Summer', 'Influenza_Pneumonia', 'Respiratory']",True,12.322010387867632,2.370455541134256,12.34357215658845,2.3916627176933787,1.0,1.0
+4,LogisticRegression,"['Week', 'Year', 'Fall', 'Winter', 'Spring', 'Summer', 'Influenza_Pneumonia', 'Respiratory']",True,18.44417046359813,14.79309433312559,20.306342535518585,17.376861420012755,1.0,1.0
+5,SGDClassifier,"['Week', 'Year', 'Fall', 'Winter', 'Spring', 'Summer', 'Influenza_Pneumonia', 'Respiratory']",True,36.80510504616418,29.94706340462731,36.9859789854133,30.02744824789846,1.0,1.0
