@@ -30,8 +30,7 @@ Here is the summary of various models that I have tried:
 
 | ----- | ------------------------------------ | --- | --- | --- | --- |
 |       |                                      |  |  |  |  |
-| Model | Features in additon to the base line |Test |Train |Test | Train |
-|  |  |Standard Deviation |  |Root Mean Square Deviation |  |
+| Model | Features in additon to the base line |Standard Deviation Test |Standard Deviation Train | RMSE Test | RMSE Train |
 | ----- | ------------------------------------ | --- | --- | --- | --- |
 | LinearRegression | 'Influenza_Pneumonia', 'Respiratory', 'Nat_Cause', 'Septicemia', 'Cancer', 'Diabetes', 'Alzheimer', 'COPD', 'Kidney', 'Other', 'Heart', 'Stroke'" | 7.06 | 7.07 | 7.06 | 7.07 |
 | LinearRegression| 'Influenza_Pneumonia', 'Respiratory'"|7.32|7.34|7.32|7.33 |
@@ -43,3 +42,4 @@ Here is the summary of various models that I have tried:
 | LogisticRegression| 'Influenza_Pneumonia', 'Respiratory', 'Nat_Cause', 'Septicemia', 'Cancer', 'Diabetes', 'Alzheimer', 'COPD', 'Kidney', 'Other', 'Heart', 'Stroke' |17.61|10.37|18.52|11.73 |
 | SGDClassifier| 'Influenza_Pneumonia', 'Respiratory', 'Nat_Cause', 'Septicemia', 'Cancer', 'Diabetes', 'Alzheimer', 'COPD', 'Kidney', 'Other', 'Heart', 'Stroke'|21.55|18.20|22.71|19.19 |
 | LinearRegression|Base Line|26.96|22.61|27.02|22.61 |
+| ----- | ------------------------------------ | --- | --- | --- | --- |
