@@ -29,7 +29,7 @@ Several models have been used with various feature selection. It appears that ch
 Here is the summary of various models that I have tried:
 
 | ----- | ------------------------------------ | --- | --- | --- | --- |
-|       |                                      | Standard Deviation | Root Mean Square Deviation |
+|       |                                      | Standard Deviation |  | Root Mean Square Deviation |  |
 | Model | Features in additon to the base line |Test |Train |Test | Train |
 | ----- | ------------------------------------ | --- | --- | --- | --- |
 
