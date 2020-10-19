@@ -1,5 +1,5 @@
 # Predicting Weekly Counts of Death from Influenza/Pneumonia  
-<img src="images/Influenza Pneumonia Prediction.png"/ width="100">
+<img src="images/Influenza Pneumonia Prediction.png"/>
 
 ## Data Collection, Organization, and Definitions  
 I have used [Weekly Counts of Deaths by State and Select Causes, 2014-2018 published by the National Center for Health Statistics](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/3yf8-kanr).
@@ -20,5 +20,5 @@ Further investigation of the weekly death rates by various causes shows that eac
 Following steps have been taken for the data pre-processing:  
 * Categorical State column has been replaced with the “dummy” quantifiable data.  
 * Categorical and  “dummy” columns have been added for Seasons.  
-* Additional column for the future week counts has been created by shifting the data by one week. This column will be used for training and validating the model.  
+* Additional column for the future week counts has been created by shifting the data by one week. This column will be used for training and validating the model.    
 The data has been split into the training and testing data sets by using the later part of the data set from the year 2018 for test and earlier part of the data set from the years 2014-2017 data for training.
