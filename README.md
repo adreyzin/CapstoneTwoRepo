@@ -42,3 +42,9 @@ Here is the summary of various models that I have tried:
 | LinearRegression|Base Line|26.96|22.61|27.02|22.61 |
   
 *) Base Line: ['Week', 'Year', 'Fall', 'Winter', 'Spring', 'Summer']
+
+The scatter plot below shows residual difference between predicted and actual numbers while using the most accurate model - Linear Regression with the most features. The plot shows that while there is an increase in error for higher numbers the differences between predictions and the actual values do not increase drastically. The symmetrical nature of the plot over the x axis also shoes that the model is not skewed in either direction.
+<img src="images/scatterplot.png"/> 
+
+The plot below shows comparison of the average weekly rates of death from Influenza and Pneumonia between predicted by the model and actual. It clearly shows that the actual numbers are within the limits of the standard deviation of the predicted model.
+<img src="images/Influenza Pneumonia Prediction.png"/> 
