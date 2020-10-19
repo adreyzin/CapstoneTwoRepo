@@ -23,3 +23,20 @@ Following steps have been taken for the data pre-processing:
 * Additional column for the future week counts has been created by shifting the data by one week. This column will be used for training and validating the model.  
 
 The data has been split into the training and testing data sets by using the later part of the data set from the year 2018 for test and earlier part of the data set from the years 2014-2017 data for training.
+
+## Modeling  
+Several models have been used with various feature selection. It appears that choosing between Linear Regression, Logistic Regression, Random Forest Classifier and SGDClassifier, Linear Regression produces the most accurate results. Linear Regression was the most accurate while using the most of the available features although adding squared or square root features didn’t improve the results. Running Linear Regression using Polynomial transformation didn’t improve the result either. 
+Here is the summary of various models that I have tried:
+
+||Standard Deviation||Root Mean Square Deviation|
+Model|Features in additon to the base line|Test|Train|Test|Train
+LinearRegression|"['Influenza_Pneumonia'| 'Respiratory'| 'Nat_Cause'| 'Septicemia'| 'Cancer'| 'Diabetes'| 'Alzheimer'| 'COPD'| 'Kidney'| 'Other'| 'Heart'| 'Stroke']"|7.06|7.07|7.06|7.07
+LinearRegression|"['Influenza_Pneumonia'| 'Respiratory'"|7.32|7.34|7.32|7.33
+LinearRegression|"[ 'Influenza_Pneumonia'| 'Influenza_Pneumonia_SqRoot'| 'Respiratory']"|7.48|7.24|7.48|7.24
+LinearRegression|['Influenza_Pneumonia']|7.56|7.42|7.57|7.42
+LinearRegression|"['Influenza_Pneumonia'| 'Influenza_Pneumonia_Squared'| 'Respiratory']"|8.60|7.23|8.61|7.23
+LinearRegression|Polinomial Features - too many to list|10.86|6.38|11.00|6.38
+RandomForestClassifier|"['Influenza_Pneumonia'| 'Respiratory'| 'Nat_Cause'| 'Septicemia'| 'Cancer'| 'Diabetes'| 'Alzheimer'| 'COPD'| 'Kidney'| 'Other'| 'Heart'| 'Stroke']"|11.01|4.56|11.32|4.71
+LogisticRegression|"['Influenza_Pneumonia'| 'Respiratory'| 'Nat_Cause'| 'Septicemia'| 'Cancer'| 'Diabetes'| 'Alzheimer'| 'COPD'| 'Kidney'| 'Other'| 'Heart'| 'Stroke']"|17.61|10.37|18.52|11.73
+SGDClassifier|"['Influenza_Pneumonia'| 'Respiratory'| 'Nat_Cause'| 'Septicemia'| 'Cancer'| 'Diabetes'| 'Alzheimer'| 'COPD'| 'Kidney'| 'Other'| 'Heart'| 'Stroke']"|21.55|18.20|22.71|19.19
+LinearRegression|Base Line|26.96|22.61|27.02|22.61
