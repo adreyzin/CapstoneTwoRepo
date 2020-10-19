@@ -20,5 +20,6 @@ Further investigation of the weekly death rates by various causes shows that eac
 Following steps have been taken for the data pre-processing:  
 * Categorical State column has been replaced with the “dummy” quantifiable data.  
 * Categorical and  “dummy” columns have been added for Seasons.  
-* Additional column for the future week counts has been created by shifting the data by one week. This column will be used for training and validating the model.    
+* Additional column for the future week counts has been created by shifting the data by one week. This column will be used for training and validating the model.  
+
 The data has been split into the training and testing data sets by using the later part of the data set from the year 2018 for test and earlier part of the data set from the years 2014-2017 data for training.
