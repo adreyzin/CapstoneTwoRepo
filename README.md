@@ -29,12 +29,11 @@ Several models have been used with various feature selection. It appears that ch
 Here is the summary of various models that I have tried:
 
 | ----- | ------------------------------------ | --- | --- | --- | --- |
-|       |                                      |  |  |  |  |
 | Model | Features in additon to the base line |Standard Deviation Test |Standard Deviation Train | RMSE Test | RMSE Train |
 | ----- | ------------------------------------ | --- | --- | --- | --- |
 | LinearRegression | 'Influenza_Pneumonia', 'Respiratory', 'Nat_Cause', 'Septicemia', 'Cancer', 'Diabetes', 'Alzheimer', 'COPD', 'Kidney', 'Other', 'Heart', 'Stroke'" | 7.06 | 7.07 | 7.06 | 7.07 |
 | LinearRegression| 'Influenza_Pneumonia', 'Respiratory'"|7.32|7.34|7.32|7.33 |
-| LinearRegression| 'Influenza_Pneumonia'| 'Influenza_Pneumonia_SqRoot'| 'Respiratory' |7.48|7.24|7.48|7.24 |
+| LinearRegression| 'Influenza_Pneumonia', 'Influenza_Pneumonia_SqRoot', 'Respiratory' |7.48|7.24|7.48|7.24 |
 | LinearRegression| 'Influenza_Pneumonia' |7.56|7.42|7.57|7.42 |
 | LinearRegression| 'Influenza_Pneumonia', 'Influenza_Pneumonia_Squared', 'Respiratory' |8.60|7.23|8.61|7.23 |
 | LinearRegression|Polinomial Features - too many to list|10.86|6.38|11.00|6.38 |
