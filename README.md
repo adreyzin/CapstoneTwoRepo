@@ -1,5 +1,5 @@
 # Predicting Weekly Counts of Death from Influenza/Pneumonia  
-<img src="images/Influenza Pneumonia Prediction.png"/>
+<img src="images/Influenza Pneumonia Prediction.png"/ | width=50>
 
 ## Data Collection, Organization, and Definitions  
 I have used [Weekly Counts of Deaths by State and Select Causes, 2014-2018 published by the National Center for Health Statistics](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/3yf8-kanr).
