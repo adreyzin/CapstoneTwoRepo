@@ -28,7 +28,8 @@ The data has been split into the training and testing data sets by using the lat
 Several models have been used with various feature selection. It appears that choosing between Linear Regression, Logistic Regression, Random Forest Classifier and SGDClassifier, Linear Regression produces the most accurate results. Linear Regression was the most accurate while using the most of the available features although adding squared or square root features didn’t improve the results. Running Linear Regression using Polynomial transformation didn’t improve the result either. 
 Here is the summary of various models that I have tried:
 
-|  |  | Standard Deviation | Root Mean Square Deviation |
+| ----- | ------------------------------------ | --- | --- | --- | --- |
+|       |                                      | Standard Deviation | Root Mean Square Deviation |
 | Model | Features in additon to the base line |Test |Train |Test | Train |
 | ----- | ------------------------------------ | --- | --- | --- | --- |
 
