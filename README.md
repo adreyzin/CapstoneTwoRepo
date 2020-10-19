@@ -7,5 +7,5 @@ The dataset has data broken by State and it has several causes of deaths includi
 
 ## Exploratory Data Analysis  
 If the weekly counts of deaths are between 0 and 9 it is suppressed to null and a null flag is raised in the matching column for the particular disease. I have replaced null values with 5 to simplify the calculations.  I have also removed the records giving the total count for all states.  
-During this stage I have checked for some tendencies and found out that cancer and heart disease are by far the two biggest killers as can clearly be visible from the boxplot.
+During this stage I have checked for some tendencies and found out that _**cancer and heart disease are by far the two biggest killers**_ as can clearly be visible from the boxplot.
 <img src="images/boxplot.png"/>
