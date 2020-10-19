@@ -29,7 +29,9 @@ Several models have been used with various feature selection. It appears that ch
 Here is the summary of various models that I have tried:
 
 ||Standard Deviation||Root Mean Square Deviation|
-Model|Features in additon to the base line|Test|Train|Test|Train
+| Model | Features in additon to the base line |Test |Train |Test | Train |
+| ----- | ------------------------------------ | --- | --- | --- | --- |
+
 LinearRegression|"['Influenza_Pneumonia'| 'Respiratory'| 'Nat_Cause'| 'Septicemia'| 'Cancer'| 'Diabetes'| 'Alzheimer'| 'COPD'| 'Kidney'| 'Other'| 'Heart'| 'Stroke']"|7.06|7.07|7.06|7.07
 LinearRegression|"['Influenza_Pneumonia'| 'Respiratory'"|7.32|7.34|7.32|7.33
 LinearRegression|"[ 'Influenza_Pneumonia'| 'Influenza_Pneumonia_SqRoot'| 'Respiratory']"|7.48|7.24|7.48|7.24
